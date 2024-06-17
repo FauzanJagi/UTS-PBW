@@ -1,0 +1,148 @@
+/* CSS */
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.baris {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.text-header {
+    font-weight: bolder;
+    color: whitesmoke;
+}
+
+.text-footer {
+    font-weight: bold;
+    font-size: medium;
+    color: whitesmoke;
+}
+
+.header,
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(60, 62, 62);
+    position: relative;
+    flex: 1;
+    max-width: 100vw;
+}
+
+.header {
+    height: 100px;
+}
+
+.footer {
+    height: 80px;
+}
+
+.kolomkiri {
+    display: flex;
+    justify-content: first baseline;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: rgb(60, 62, 62);
+    position: relative;
+    max-width: 200px;
+    color: white;
+}
+
+.kolomtengah {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(96, 96, 96);
+    position: relative;
+    flex: 2;
+    width: 500px;
+    color: white;
+}
+
+.kolomkanan {
+    display: flex;
+    justify-content: first baseline;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(208, 208, 208);
+    position: relative;
+    max-width: 350px;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+.textBiasa {
+    font-size: 20px;
+    color: white;
+}
+
+p {
+    margin: 20px;
+    text-align: justify;
+}
+
+img {
+    border-radius: 50px;
+    width: 200px;
+    height: fit-content;
+}
+
+a {
+    color: aliceblue;
+}
+
+.pembuka,
+.isi,
+.penutup {
+    margin: 20px;
+    text-align: justify;
+    color: white;
+}
+
+ul li {
+    list-style: none;
+}
+
+.menu {
+    flex: 1;
+    background-color: rgb(132, 132, 132); /* Warna background menu */
+    color: whitesmoke;
+    padding: 20px;
+    text-align: left;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 0px;
+    position: relative;
+}
+
+.menu::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -20px; /* Geser ke kiri agar tampak seperti ujung */
+    
+}
+
+.content {
+    flex: 2;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.achievements {
+    display: inline-block; /* Tampilkan prestasi sebagai blok inline agar dapat dipusatkan */
+    padding: 0px;
+    margin-bottom: 10px;
+    border-radius: px;
+    box-shadow: 0 2px 4px rgba(183, 183, 183, 0.1);
+    background-color: #fff;
+    text-align: left; /* Atur kembali ke kiri untuk konten di dalam container */
+}

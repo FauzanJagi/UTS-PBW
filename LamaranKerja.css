@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 110vh;
+}
+
+
+.baris{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.text-header{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+
+.text-footer{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: medium;
+}
+
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(60, 62, 62);
+    position: relative;
+    flex: 1;
+    max-width: 100vw;
+    height:    100px;
+    color: whitesmoke;
+
+}
+
+.kolomkiri{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(60, 62, 62);
+    position: relative;
+    flex: 1;
+    max-width: 200px;
+    height: 900px;
+    color: white;
+    padding-left: 5px;
+}
+
+.kolomtengah{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(96, 96, 96);
+    position: relative;
+    flex: 2;
+    width: 500px;
+    height: 900px;
+    color: white;
+   
+}
+
+.kolomkanan{
+    display: flex;
+    justify-content: first baseline;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(208, 208, 208);
+    position: relative;
+    flex: 3;
+    max-width: 350px;
+    height: 900px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(60, 62, 62);
+    position: relative;
+    flex: 1;
+    max-width: 100vw;
+    height: 80px;
+    color: whitesmoke;
+}
+
+h1{
+    text-align: center;
+
+    
+}
+
+.textBiasa{
+    font-size: 20px;
+    color: white;
+
+}
+
+p{
+    margin: 20px;
+    text-align: justify;
+}
+
+img{
+    border-radius: 50px;
+    align-items: center;
+    width: 200px;
+    height: fit-content;
+}
+
+a{
+    color: aliceblue;
+}
+
+.pembuka {
+    margin-bottom: 20px;
+    align-items: flex-start;
+
+}
+.isi {
+    margin-bottom: 30px;
+    align-items: flex-start;
+}
+.penutup {
+    margin-top: 20px;
+    align-items: flex-start;
+}
+
+.kolomkiri ol li{
+    list-style: none;
+}
